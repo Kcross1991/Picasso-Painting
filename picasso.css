@@ -1,0 +1,11 @@
+.Circle{
+    display:flex;
+    background-color: blueviolet;
+}
+
+.Circle > div {
+    background-color: aquamarine;
+    margin: 10px;
+    padding:5px
+    font-size: 25px
+}
