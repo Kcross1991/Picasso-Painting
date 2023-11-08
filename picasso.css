@@ -1,11 +1,55 @@
-.Circle{
+
+@media all and (max-width:700px) {
+    body
+    }
+div.square{
     display:flex;
     background-color: blueviolet;
+    border:3px solid;
+    width:100px;
+    height:100px;
+    margin:auto ;
 }
-
-.Circle > div {
-    background-color: aquamarine;
-    margin: 10px;
-    padding:5px
-    font-size: 25px
+div.circle{
+    display:flex;
+    background-color: rgb(118, 27, 202);
+    border:3px solid;
+    width:100px;
+    height:100px;
+    margin: 0; 
+    border-radius: 50%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 40px;
 }
+    div.square1{
+        display:flex;
+        background-color: rgb(76, 23, 125);
+        border:3px solid;
+        width:100px;
+        height:100px;
+        align-content:center;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 40px;
+    }
+    div.square2{
+        display:flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        background-color: rgb(102, 43, 157);
+        border:3px solid;
+        width:100px;
+        height:100px;
+        margin-top: 40px;
+    }
+    div.square3{
+        display:flex;
+        justify-content: flex-end;
+        background-color: rgb(102, 43, 157);
+        border:3px solid;
+        width:100px;
+        height:100px;
+        margin-top: 40px;
+        margin-right: auto;
+    }
