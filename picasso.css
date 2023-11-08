@@ -1,7 +1,22 @@
-
-@media all and (max-width:700px) {
-    body
+/* Set the background color of body to tan */
+body {
+    background-color: tan;
+    
+  }
+  
+  /* On screens that are 992px or less, set the background color to green */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(0, 255, 34);
     }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
 div.square{
     display:flex;
     background-color: blueviolet;
@@ -16,7 +31,6 @@ div.circle{
     border:3px solid;
     width:100px;
     height:100px;
-    margin: 0; 
     border-radius: 50%;
     flex-wrap: wrap;
     margin: auto;
@@ -24,32 +38,33 @@ div.circle{
 }
     div.square1{
         display:flex;
+        flex-wrap: wrap;
         background-color: rgb(76, 23, 125);
         border:3px solid;
         width:100px;
         height:100px;
         align-content:center;
-        flex-wrap: wrap;
         margin: auto;
         margin-top: 40px;
     }
-    div.square2{
-        display:flex;
-        justify-content: flex-start;
-        align-items:flex-start;
+    .squares{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .square2{
         background-color: rgb(102, 43, 157);
         border:3px solid;
         width:100px;
         height:100px;
         margin-top: 40px;
-    }
-    div.square3{
-        display:flex;
-        justify-content: flex-end;
-        background-color: rgb(102, 43, 157);
-        border:3px solid;
-        width:100px;
-        height:100px;
-        margin-top: 40px;
-        margin-right: auto;
-    }
+
+   }
+   .square3{
+    background-color: rgb(102, 43, 157);
+    border:3px solid;
+    width:100px;
+    height:100px;
+    margin-top: 40px;
+}
